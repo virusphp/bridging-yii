@@ -73,7 +73,8 @@
 		]
 	},
 	"require": {
-		"php": ">=5.1.0"
+		"php": ">=5.1.0",
+		"guzzlehttp/guzzle": "~6.0"
 	},
 	"suggest": {
 		"ext-mcrypt": "Required by encrypt and decrypt methods of CSecurityManager",
@@ -83,6 +84,9 @@
 		"classmap" : [
 			"framework/YiiBase.php",
 			"framework/yii.php"
+		],
+		"files" : [
+			"protected/Helpers/Signature.php"
 		]
 	},
 	"require-dev": {

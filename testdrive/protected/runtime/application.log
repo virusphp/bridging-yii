@@ -1,0 +1,11 @@
+2019/08/02 07:20:48 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "halo". in D:\YII\bridging-rs\framework\web\CController.php:486
+Stack trace:
+#0 D:\YII\bridging-rs\framework\web\CController.php(270): CController->missingAction('halo')
+#1 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('halo')
+#2 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/halo')
+#3 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\YII\bridging-rs\testdrive\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/halo&view=halo
+HTTP_REFERER=http://localhost:8000/index.php?r=site/index
+---
