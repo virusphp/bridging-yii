@@ -1,68 +1,38 @@
-Yii Web Programming Framework
-=============================
+# Bridging YII 1 Modifikasi Component BPJS
+---
+##### Tools :
+- Git
+- Composer
+- Text Editor (Nodepad++,Sublime Text, VSCode, Vim, etc)
+- PHP v.7.x
 
-Thank you for choosing Yii - a high-performance component-based PHP framework.
+##### Pull/Menarik Repositori :
+- `git clone https://github.com/virusphp/bridging-yii.git`
 
-[![Build Status](https://secure.travis-ci.org/yiisoft/yii.png)](http://travis-ci.org/yiisoft/yii)
+##### Buat Branch :
+- agar tidak mengganggu branch utama `master` lebih baik jika membuat branch sendiri untuk melakukan pengeditan sebelum di `push` ke branch utama `master`
+- contoh pembuatan Branch sesuai dengan pengerjaan yang dilakukan dengan format nama_pekerjaan contoh aman_finance / aman_fin / fin_aman / finance_aman
+- untuk sintak pembuatan branch seperti di bawah
+- `git branch <nama-branch-baru>`
+- `git checkout <nama-branch-baru>`
 
-> Note that Yii 1.1 [has reached end of life](http://www.yiiframework.com/news/90/update-on-yii-1-1-support-and-end-of-life/)
-  and won't receive updates except security fixes. Please start new projects using [Yii 2](https://github.com/yiisoft/yii2).
+##### Push/Upload:
+- `git add .` atau `git add -A`
+- `git commit -m "<pesan>"` contoh `git commit -m "bagusin header"`
+- `git push` atau `git push origin <nama-branch>`
 
-INSTALLATION
-------------
+##### Pull Request :
+- jika yang dikerjakan di branch sudah stabil atau tidak ada bug, bisa dilakukan <b>Pull Request</b> dari branch yang baru ke branch utama `master`
+- `git add .`
+- `git commit -m "<pesan>"`
+- `git checkout master`
+- `git pull origin master`
+- Buka halaman `https://github.com/virusphp/bridging-yii.git` dan klik `membuat pull request`
 
-Please make sure the release file is unpacked under a Web-accessible
-directory. You shall see the following files and directories:
+##### Penggunaan / installasi :
+- `composer install --verbose`
+- `composer du`
+- run service `php -S localhost:8000 -t testdrive/`
 
-      demos/               demos
-      framework/           framework source files
-      requirements/        requirement checker
-      CHANGELOG            describing changes in every Yii release
-      LICENSE              license of Yii
-      README               this file
-      UPGRADE              upgrading instructions
-
-
-REQUIREMENTS
-------------
-
-The minimum requirement by Yii is that your Web server supports
-PHP 5.1.0 or above. Yii has been tested with Apache HTTP server
-on Windows and Linux operating systems.
-
-Please access the following URL to check if your Web server reaches
-the requirements by Yii, assuming "YiiPath" is where Yii is installed:
-
-      http://hostname/YiiPath/requirements/index.php
-
-
-QUICK START
------------
-
-Yii comes with a command line tool called "yiic" that can create
-a skeleton Yii application for you to start with.
-
-On command line, type in the following commands:
-
-        $ cd YiiPath/framework                (Linux)
-        cd YiiPath\framework                  (Windows)
-
-        $ ./yiic webapp ../testdrive          (Linux)
-        yiic webapp ..\testdrive              (Windows)
-
-The new Yii application will be created at "YiiPath/testdrive".
-You can access it with the following URL:
-
-        http://hostname/YiiPath/testdrive/index.php
-
-
-WHAT'S NEXT
------------
-
-Please visit the project website for tutorials, class reference
-and join discussions with other Yii users.
-
-
-
-The Yii Developer Team
-http://www.yiiframework.com
+---
+MegonoDev Team
