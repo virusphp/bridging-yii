@@ -23,7 +23,12 @@ class SiteController extends Controller
 
 	public function actionHallo($message = 'Hallo Dunia')
 	{
-		$this->render('Hallo', ['message' => $message]);
+		$bpjs = new Bpjs();
+		// echo $message;
+		// echo $bpjs->referensi_diagnosa("A01");
+		echo $bpjs->search_nik("3375030912900008");
+		// $tanggal = timestamp();
+		// $this->render('Hallo', ['message' => $message, 'tanggal' => $tanggal]);
 	}
 
 	/**

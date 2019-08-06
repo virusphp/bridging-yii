@@ -10,9 +10,9 @@ return array(
 	'name'=>'My Web Application',
 
 	// Config cons_ID dan secret_ID BPJS
-	'consid' => 'cobacoba',
-	'secretid' => 'cobacoba',
-	'endpoint' => 'https://new-api.bpjs-kesehatan.go.id:8080/new-vclaim-rest/',
+	// 'consid' => 'cobacoba',
+	// 'secretid' => 'cobacoba',
+	// 'endpoint' => 'https://new-api.bpjs-kesehatan.go.id:8080/new-vclaim-rest/',
 	// preloading 'log' component
 	'preload'=>array('log'),
 

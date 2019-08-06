@@ -9,3 +9,179 @@ Stack trace:
 REQUEST_URI=/index.php?r=site/halo&view=halo
 HTTP_REFERER=http://localhost:8000/index.php?r=site/index
 ---
+2019/08/02 08:36:37 [error] [exception.Error] Error: Call to undefined function timestamp() in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php:27
+Stack trace:
+#0 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#1 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#8 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\YII\bridging-rs\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/index.php?r=site/page&view=about
+---
+2019/08/02 12:02:24 [error] [exception.Error] Error: Call to undefined function timestamp() in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php:26
+Stack trace:
+#0 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#1 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#8 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\YII\bridging-rs\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/
+---
+2019/08/02 12:03:05 [error] [exception.Error] Error: Call to undefined function timestamp() in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php:26
+Stack trace:
+#0 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#1 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#8 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\YII\bridging-rs\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/
+---
+2019/08/02 12:03:05 [error] [exception.Error] Error: Call to undefined function timestamp() in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php:26
+Stack trace:
+#0 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#1 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#8 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\YII\bridging-rs\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/
+---
+2019/08/02 12:03:06 [error] [exception.Error] Error: Call to undefined function timestamp() in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php:26
+Stack trace:
+#0 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#1 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#8 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\YII\bridging-rs\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/
+---
+2019/08/02 12:06:24 [error] [exception.Error] Error: Call to undefined function timestamp() in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php:26
+Stack trace:
+#0 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#1 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#8 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\YII\bridging-rs\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/index.php?r=site/page&view=about
+---
+2019/08/05 18:41:47 [error] [exception.Error] Error: Call to undefined function timestamp() in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php:28
+Stack trace:
+#0 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#1 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#8 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\YII\bridging-rs\testdrive\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/index.php?r=site/page&view=about
+---
+2019/08/05 20:45:42 [error] [exception.Error] Error: Call to undefined function json() in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php:27
+Stack trace:
+#0 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#1 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#8 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\YII\bridging-rs\testdrive\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/index.php?r=site/page&view=about
+---
+2019/08/05 20:46:54 [error] [exception.Error] Error: Call to undefined function json() in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php:28
+Stack trace:
+#0 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#1 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#8 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\YII\bridging-rs\testdrive\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/index.php?r=site/page&view=about
+---
+2019/08/05 20:47:36 [error] [exception.Error] Error: Call to undefined function dd() in D:\YII\bridging-rs\testdrive\protected\components\Bpjs.php:104
+Stack trace:
+#0 D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php(28): Bpjs->referensi_diagnosa('A01')
+#1 [internal function]: SiteController->actionHallo('Hallo Dunia')
+#2 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\YII\bridging-rs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\YII\bridging-rs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): CController->run('hallo')
+#8 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/hallo')
+#9 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\YII\bridging-rs\testdrive\index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/hallo
+HTTP_REFERER=http://localhost:8000/index.php?r=site/page&view=about
+---
+2019/08/05 21:01:04 [error] [php] Undefined variable: uid (D:\YII\bridging-rs\testdrive\protected\components\Bpjs.php:14)
+Stack trace:
+#0 D:\YII\bridging-rs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#1 D:\YII\bridging-rs\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 D:\YII\bridging-rs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\YII\bridging-rs\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\YII\bridging-rs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\YII\bridging-rs\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\YII\bridging-rs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\YII\bridging-rs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\YII\bridging-rs\testdrive\index.php(15): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/hallo
+in D:\YII\bridging-rs\testdrive\protected\components\Bpjs.php (14)
+in D:\YII\bridging-rs\testdrive\protected\controllers\SiteController.php (26)
+in D:\YII\bridging-rs\testdrive\index.php (15)

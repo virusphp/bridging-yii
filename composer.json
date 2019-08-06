@@ -86,7 +86,7 @@
 			"framework/yii.php"
 		],
 		"files" : [
-			"protected/Helpers/Signature.php"
+			"testdrive/protected/helpers/signature.php"
 		]
 	},
 	"require-dev": {
